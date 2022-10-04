@@ -1,0 +1,43 @@
+{
+    "name": "pxt-rbcx",
+    "version": "0.0.1",
+    "description": "",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "main.cpp",
+        "comm/src/cobs/cobs.c",
+        "comm/src/cobs/cobs.h",
+        "comm/src/coproc_codec.cpp",
+        "comm/src/coproc_codec.h",
+        "comm/src/coproc_link_parser.h",
+        "comm/src/rbcx.pb.c",
+        "comm/src/rbcx.pb.h",
+        "comm/src/pb/pb.h",
+        "comm/src/pb/pb_common.c",
+        "comm/src/pb/pb_common.h",
+        "comm/src/pb/pb_decode.c",
+        "comm/src/pb/pb_decode.h",
+        "comm/src/pb/pb_encode.c",
+        "comm/src/pb/pb_encode.h",
+        "enums.d.ts",
+        "shims.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
