@@ -11,7 +11,7 @@ namespace rbcx
     //%
     int foo()
     {
-        uBit.display.image.print('b');
+        uBit.display.image.print('c');
         rb::CoprocCodec c;
         CoprocReq msg = {};
         msg.which_payload = CoprocReq_versionReq_tag;

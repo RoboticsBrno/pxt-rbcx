@@ -18,15 +18,16 @@
         "comm/src/coproc_link_parser.h",
         "comm/src/rbcx.pb.c",
         "comm/src/rbcx.pb.h",
-        "comm/src/pb/pb.h",
-        "comm/src/pb/pb_common.c",
-        "comm/src/pb/pb_common.h",
-        "comm/src/pb/pb_decode.c",
-        "comm/src/pb/pb_decode.h",
-        "comm/src/pb/pb_encode.c",
-        "comm/src/pb/pb_encode.h",
+        "comm/src/nanopb/pb.h",
+        "comm/src/nanopb/pb_common.c",
+        "comm/src/nanopb/pb_common.h",
+        "comm/src/nanopb/pb_decode.c",
+        "comm/src/nanopb/pb_decode.h",
+        "comm/src/nanopb/pb_encode.c",
+        "comm/src/nanopb/pb_encode.h",
         "enums.d.ts",
-        "shims.d.ts"
+        "shims.d.ts",
+        "test.ts"
     ],
     "testFiles": [
         "test.ts"
