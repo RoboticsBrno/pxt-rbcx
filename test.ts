@@ -1,6 +1,5 @@
+
 serial.redirectToUSB()
-serial.setBaudRate(115200)
-serial.setWriteLinePadding(0)
-serial.writeLine("pre")
-rbcx.foo()
-serial.writeLine("post")
+basic.showNumber(1)
+rbcx.initialize()
+
